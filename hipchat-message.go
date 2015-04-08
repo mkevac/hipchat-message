@@ -11,8 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/mkevac/hipchat-message/hipchat"
+
 	"github.com/casimir/xdg-go"
-	"github.com/mkevac/hipchat-go/hipchat"
 )
 
 const (

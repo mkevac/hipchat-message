@@ -1,7 +1,6 @@
 # hipchat-message
 Small utility that allows you to send HipChat messages from terminal
 
-
 hipchat-message reads message from standard input, so you can either use pipe
 ```
 $ uname -a | hipchat-message @mkevac

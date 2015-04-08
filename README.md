@@ -1,4 +1,4 @@
-# hipchat-message
+# hipchat-message [![Build Status](https://travis-ci.org/mkevac/hipchat-message.svg?branch=master)](https://travis-ci.org/mkevac/hipchat-message)
 Small utility that allows you to send HipChat messages from terminal
 
 hipchat-message reads message from standard input, so you can either use pipe

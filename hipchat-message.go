@@ -156,8 +156,9 @@ func main() {
 		room := recepient[1:]
 
 		nr := hipchat.NotificationRequest{
-			Message: message,
-			Notify:  true,
+			Message:       message,
+			Notify:        true,
+			MessageFormat: "text",
 		}
 
 		_, err := c.Room.Notification(room, &nr)
@@ -182,8 +183,9 @@ func main() {
 		user := recepient // we should include @ character here
 
 		mr := hipchat.MessageRequest{
-			Message: message,
-			Notify:  true,
+			Message:       message,
+			Notify:        true,
+			MessageFormat: "text",
 		}
 
 		resp, err := c.User.Message(user, &mr)
